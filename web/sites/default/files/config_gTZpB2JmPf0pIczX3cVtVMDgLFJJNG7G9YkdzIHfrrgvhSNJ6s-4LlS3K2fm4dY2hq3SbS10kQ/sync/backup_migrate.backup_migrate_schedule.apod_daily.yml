@@ -1,0 +1,13 @@
+uuid: eb197af8-1be4-4711-bb42-5a7e6cffbbeb
+langcode: en
+status: true
+dependencies: {  }
+id: apod_daily
+label: 'apod daily'
+enabled: true
+keep: 5
+period: 86400
+cron: null
+source_id: default_db
+destination_id: private_files
+settings_profile_id: null
