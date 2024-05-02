@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '8843eeae15b4e59098f08aa22b89d1681e46a4a6',
+        'reference' => '1621e0c0a3de71d7a82882f28c105539054bbc32',
         'name' => 'drupal/recommended-project',
         'dev' => true,
     ),
@@ -197,6 +197,15 @@
             'install_path' => __DIR__ . '/../../web/modules/contrib/admin_toolbar',
             'aliases' => array(),
             'reference' => '3.4.2',
+            'dev_requirement' => false,
+        ),
+        'drupal/backup_migrate' => array(
+            'pretty_version' => '5.0.3',
+            'version' => '5.0.3.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/backup_migrate',
+            'aliases' => array(),
+            'reference' => '5.0.3',
             'dev_requirement' => false,
         ),
         'drupal/core' => array(
@@ -412,7 +421,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '8843eeae15b4e59098f08aa22b89d1681e46a4a6',
+            'reference' => '1621e0c0a3de71d7a82882f28c105539054bbc32',
             'dev_requirement' => false,
         ),
         'drupal/restui' => array(
