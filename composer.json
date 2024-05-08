@@ -28,6 +28,7 @@
         "drupal/shield": "^1.7",
         "drupal/token": "^1.14",
         "drupal/tour_ui": "^2.0",
+        "drupal/twig_debugger": "^1.1",
         "drush/drush": "^12.5"
     },
     "conflict": {

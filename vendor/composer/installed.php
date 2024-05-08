@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'f0d11a992c0b5d58470c0564d5713239011aac60',
+        'reference' => '22ac8391d314b22add2ac7879a6ab80555860248',
         'name' => 'drupal/recommended-project',
         'dev' => true,
     ),
@@ -421,7 +421,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'f0d11a992c0b5d58470c0564d5713239011aac60',
+            'reference' => '22ac8391d314b22add2ac7879a6ab80555860248',
             'dev_requirement' => false,
         ),
         'drupal/restui' => array(
@@ -458,6 +458,15 @@
             'install_path' => __DIR__ . '/../../web/modules/contrib/tour_ui',
             'aliases' => array(),
             'reference' => '2.0.0',
+            'dev_requirement' => false,
+        ),
+        'drupal/twig_debugger' => array(
+            'pretty_version' => '1.1.3',
+            'version' => '1.1.3.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/twig_debugger',
+            'aliases' => array(),
+            'reference' => '1.1.3',
             'dev_requirement' => false,
         ),
         'drush/drush' => array(
