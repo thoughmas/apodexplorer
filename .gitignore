@@ -27,4 +27,5 @@
 Thumbs.db
 
 #Ignore my custom files
+/_backups/*
 /web/modules/custom/apodcall/src/Controller/apodControllerAlpha.php
