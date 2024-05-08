@@ -1,0 +1,5 @@
+name: 'APOD Call'
+type: module
+description: 'A module to call the APOD API'
+core_version_requirement: ^9 || ^10
+package: Custom
