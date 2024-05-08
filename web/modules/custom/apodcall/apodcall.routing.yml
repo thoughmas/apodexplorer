@@ -1,0 +1,8 @@
+
+apodcall.nasa:
+  path: '/apod'
+  defaults:
+    _controller: '\Drupal\apodcall\Controller\ApodController::getApod'
+    _title: 'NASA APOD API'
+  requirements:
+    _permission: 'access content'

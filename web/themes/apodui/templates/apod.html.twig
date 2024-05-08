@@ -1,1 +1,16 @@
-<h1>{{ data }}</h1>
+<!DOCTYPE html>
+{#insert default html tag with lang#}
+
+<html lang="en">
+<head>
+  <title>Astronomy Picture of the Day</title>
+</head>
+<body>
+  <h2>Astronomy Picture of the Day</h2>
+  <p>Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.</p>
+  <h3>{{ data.title }}</h3>
+  <p>{{ data.date|date("F j, Y") }}</p>
+  <iframe style="border:none;" src="{{ data.url }}" width="800" height=400px"></iframe>
+  <p><b>Explanation:</b> {{ data.explanation }}</p>
+</body>
+</html>

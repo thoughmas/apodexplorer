@@ -1,0 +1,16 @@
+Implementation of hook_theme() in apodcall.module
+<?php
+/**
+ * Implements hook_theme().
+ */
+function apodcall_theme($existing, $type, $theme, $path): array
+{
+  return [
+    'apod' => [
+      'type' => 'theme',
+      'variables' => [
+        'data' => [],
+      ],
+    ],
+  ];
+}
