@@ -28,8 +28,12 @@ class apodController extends ControllerBase {
         'Accept' => 'application/json',
       ],
     ]);
-    $response = $client->get('https://api.nasa.gov/planetary/apod?api_key=n2dfLB1blQacHisOk3oNDeEplXoXOn82PnjAvjVv');
+    $response = $client->get('https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY');
     $data = Json::decode($response->getBody());
+//    print '<pre>';
+//    print_r($data);
+//    print '</pre>';
+
     return [
       '#theme' => 'apod',
       '#data' => $data,

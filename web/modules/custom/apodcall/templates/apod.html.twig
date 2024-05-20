@@ -8,7 +8,8 @@
   <p>Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.</p>
   <h3>{{ data.title }}</h3>
   <p>{{ data.date|date("F j, Y") }}</p>
-  <iframe style="border:none;" src="{{ data.url }}" width="800" height=400px"></iframe>
+{#  <iframe style="border:none;" src="{{ data.url }}" width="800" height=400px"></iframe>#}
+  <img src="{{ data.url }}" alt="Astronomy Picture of the Day" style="width:800px; height:400px; border:1px solid black; margin-top:10px; margin-bottom:10px;"/>
   <p><b>Explanation:</b> {{ data.explanation }}</p>
 </body>
 </html>
